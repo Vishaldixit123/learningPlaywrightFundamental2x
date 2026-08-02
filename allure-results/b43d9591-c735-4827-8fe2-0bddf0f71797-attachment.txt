@@ -1,0 +1,8 @@
+{
+  "vehicleName": "Scorpio",
+  "ownerName": "Vishal",
+  "regNumber": "MP04YS",
+  "vehicleType": "SUV",
+  "year": "2024",
+  "notes": "Notes textbox"
+}

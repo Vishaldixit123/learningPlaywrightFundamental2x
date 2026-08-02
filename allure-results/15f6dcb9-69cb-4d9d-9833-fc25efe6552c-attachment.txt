@@ -1,0 +1,6 @@
+Edit
+Cut
+Copy
+Paste
+Delete
+Quit

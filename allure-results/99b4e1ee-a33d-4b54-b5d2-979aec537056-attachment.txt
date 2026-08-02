@@ -1,0 +1,2 @@
+locator('#ctx-menu li button span:first-child').first()
+locator('#ctx-menu li button span:first-child').nth(1)

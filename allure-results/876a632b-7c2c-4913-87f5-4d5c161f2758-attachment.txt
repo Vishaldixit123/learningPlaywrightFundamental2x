@@ -1,0 +1,4 @@
+alert
+confirm
+prompt
+Enter your name

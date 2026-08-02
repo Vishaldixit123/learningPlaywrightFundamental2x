@@ -1,0 +1,2 @@
+Row count: 10
+Clicked row 1 because it contains Pune

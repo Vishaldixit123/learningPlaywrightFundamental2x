@@ -1,0 +1,2 @@
+Row count: 10
+Clicked row 4 because it contains {cellText}

@@ -1,0 +1,6 @@
+alert
+confirm
+prompt
+Enter your name
+Prompt default value: Aarav
+Entered name value: Vishal
