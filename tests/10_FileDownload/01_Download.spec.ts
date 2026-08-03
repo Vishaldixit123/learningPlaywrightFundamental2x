@@ -1,6 +1,7 @@
 import { test, expect } from "@playwright/test"
 
 test.describe('Test Download', () => {
+
     test.beforeEach('Test1', async ({ page }) => {
         await page.goto('https://app.thetestingacademy.com/playwright/widgets/upload-download');
     })
@@ -29,5 +30,9 @@ test.describe('Test Download', () => {
         await fileDownload.saveAs('./tests/fileDownload/' + fileDownload.suggestedFilename())
 
 
+    })
+
+    test.afterEach('Closing page', async ({ page }) => {
+        await page.close();
     })
 })

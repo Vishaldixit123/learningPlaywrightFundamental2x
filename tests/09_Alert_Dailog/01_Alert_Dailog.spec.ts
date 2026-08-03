@@ -61,7 +61,7 @@ test('Dailog', async ({ page }) => {
 
     await page.getByRole('button', { name: 'Click for JS Alert' }).click();
 
-    const result = await page.getByTestId('alerts-result').textContent();
+    let result = await page.getByTestId('alerts-result').textContent();
     expect(result).toContain(expectedText);
 
 
@@ -74,7 +74,7 @@ test('Dailog', async ({ page }) => {
     });
 
     await page.getByRole('button', { name: 'Click for JS Prompt' }).click();
-    const result = await page.getByTestId('alerts-result').textContent();
+    result = await page.getByTestId('alerts-result').textContent();
     expect(result).toContain(name);
 
 

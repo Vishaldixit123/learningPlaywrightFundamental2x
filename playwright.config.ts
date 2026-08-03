@@ -42,8 +42,8 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         viewport: {
-          width: 1900,
-          height: 850,
+          width: 1920,
+          height: 1080,
         },
         //storageState: path.resolve(__dirname, 'user_session.json'),
       },
